@@ -1,7 +1,7 @@
 # Bebek Molada — web sitesi
 
 Bebek Molada mobil uygulamasının statik sitesi. GitHub Pages ile
-<https://nodabasi.github.io/bebek-molada/> adresinde yayınlanır.
+<https://nodabasi.github.io/bebek-molada-app/> adresinde yayınlanır.
 
 Düz HTML ve tek stil dosyası; derleme adımı ya da bağımlılık yok. Dosyayı düzenle,
 commit et, push et; Pages bir iki dakikada yeniden yayınlar.
@@ -10,14 +10,14 @@ commit et, push et; Pages bir iki dakikada yeniden yayınlar.
 
 | Adres | Dosya | Mağazada kullanımı |
 |---|---|---|
-| `/bebek-molada/` | `index.html` | Pazarlama URL'si (Türkçe) |
-| `/bebek-molada/support/` | `support/index.html` | Destek URL'si (Türkçe) |
-| `/bebek-molada/privacy/` | `privacy/index.html` | Gizlilik Politikası URL'si (Türkçe) |
-| `/bebek-molada/delete-account/` | `delete-account/index.html` | Google Play "hesap silme" URL'si (Türkçe) |
-| `/bebek-molada/en/` | `en/index.html` | Pazarlama URL'si (İngilizce) |
-| `/bebek-molada/en/support/` | `en/support/index.html` | Destek URL'si (İngilizce) |
-| `/bebek-molada/en/privacy/` | `en/privacy/index.html` | Gizlilik Politikası URL'si (İngilizce) |
-| `/bebek-molada/en/delete-account/` | `en/delete-account/index.html` | Hesap silme URL'si (İngilizce) |
+| `/bebek-molada-app/` | `index.html` | Pazarlama URL'si (Türkçe) |
+| `/bebek-molada-app/support/` | `support/index.html` | Destek URL'si (Türkçe) |
+| `/bebek-molada-app/privacy/` | `privacy/index.html` | Gizlilik Politikası URL'si (Türkçe) |
+| `/bebek-molada-app/delete-account/` | `delete-account/index.html` | Google Play "hesap silme" URL'si (Türkçe) |
+| `/bebek-molada-app/en/` | `en/index.html` | Pazarlama URL'si (İngilizce) |
+| `/bebek-molada-app/en/support/` | `en/support/index.html` | Destek URL'si (İngilizce) |
+| `/bebek-molada-app/en/privacy/` | `en/privacy/index.html` | Gizlilik Politikası URL'si (İngilizce) |
+| `/bebek-molada-app/en/delete-account/` | `en/delete-account/index.html` | Hesap silme URL'si (İngilizce) |
 
 **Klasör adlarını değiştirme.** Bu adresler App Store Connect ve Google Play Console'a
 girildikten sonra adı değişen her klasör canlı bir mağaza bağlantısını bozar.
