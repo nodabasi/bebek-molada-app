@@ -1,0 +1,289 @@
+/* Shared stylesheet for every page. Palette follows the app logo: deep teal ink
+   on a soft cream ground, with the logo's four accents (teal, mint, honey,
+   coral) carried through headings, cards and bullets.
+
+   Mobile first: the base rules target a phone, and the only media queries widen
+   things for larger screens or adapt to a dark colour scheme. */
+
+:root {
+  --ink: #17393d;
+  --ink-soft: #4a6366;
+  --ink-faint: #6b7d80;
+  --ground: #f7fbfa;
+  --card: #ffffff;
+  --line: #dbe8e6;
+
+  --teal: #1f8a8c;
+  --mint: #2f9a6c;
+  --honey: #b7790c;
+  --coral: #d24f6c;
+
+  /* Same four hues at low alpha, for card and badge fills. */
+  --teal-tint: #1f8a8c1a;
+  --mint-tint: #2f9a6c1a;
+  --honey-tint: #b7790c1a;
+  --coral-tint: #d24f6c1a;
+
+  --shadow: 0 6px 24px rgb(23 57 61 / 0.10);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #eef6f5;
+    --ink-soft: #c3d6d4;
+    --ink-faint: #8fa8a6;
+    --ground: #0c1a1c;
+    --card: #142a2d;
+    --line: #2b4a4d;
+
+    --teal: #5cc8c9;
+    --mint: #6fd3a4;
+    --honey: #f2c25c;
+    --coral: #f58ca2;
+
+    --teal-tint: #5cc8c924;
+    --mint-tint: #6fd3a424;
+    --honey-tint: #f2c25c24;
+    --coral-tint: #f58ca224;
+
+    --shadow: 0 6px 24px rgb(0 0 0 / 0.35);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0 18px 64px;
+  background: var(--ground);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  overflow-wrap: break-word;
+}
+
+img { max-width: 100%; }
+
+.wrap { max-width: 680px; margin: 0 auto; }
+
+/* Header — a tinted band carrying the logo's colours */
+
+header {
+  position: relative;
+  margin: 18px 0 8px;
+  padding: 40px 20px 32px;
+  text-align: center;
+  border-radius: 24px;
+  background:
+    radial-gradient(60% 80% at 15% 0%, var(--mint-tint), transparent 70%),
+    radial-gradient(60% 80% at 85% 0%, var(--teal-tint), transparent 70%),
+    radial-gradient(70% 90% at 50% 110%, var(--honey-tint), transparent 70%);
+}
+
+header img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+h1 {
+  margin: 18px 0 6px;
+  font-size: clamp(28px, 8vw, 36px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  background: linear-gradient(100deg, var(--teal), var(--mint) 55%, var(--honey));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tagline {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: clamp(16px, 4.4vw, 19px);
+}
+
+/* Section headings — a coloured bar that cycles through the four hues */
+
+h2 {
+  position: relative;
+  margin: 40px 0 12px;
+  padding-left: 14px;
+  font-size: clamp(20px, 5.4vw, 23px);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.16em;
+  bottom: 0.16em;
+  width: 5px;
+  border-radius: 3px;
+  background: var(--teal);
+}
+
+h2:nth-of-type(4n + 2)::before { background: var(--mint); }
+h2:nth-of-type(4n + 3)::before { background: var(--honey); }
+h2:nth-of-type(4n + 4)::before { background: var(--coral); }
+
+h3 {
+  margin: 26px 0 4px;
+  font-size: 17px;
+  color: var(--teal);
+}
+
+p { margin: 12px 0; }
+
+a { color: var(--teal); }
+
+hr {
+  margin: 44px 0 0;
+  border: 0;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--mint), var(--honey), var(--coral), var(--teal));
+  opacity: 0.75;
+}
+
+/* Feature cards on the landing page — each card in one of the four colours */
+
+.features {
+  list-style: none;
+  margin: 18px 0;
+  padding: 0;
+}
+
+.features li {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--teal);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  box-shadow: var(--shadow);
+}
+
+.features b { display: block; font-size: 17px; color: var(--teal); }
+
+.features span { color: var(--ink-soft); font-size: 15px; }
+
+.features li:nth-child(4n + 2) { border-left-color: var(--mint); }
+.features li:nth-child(4n + 2) b { color: var(--mint); }
+.features li:nth-child(4n + 3) { border-left-color: var(--honey); }
+.features li:nth-child(4n + 3) b { color: var(--honey); }
+.features li:nth-child(4n + 4) { border-left-color: var(--coral); }
+.features li:nth-child(4n + 4) b { color: var(--coral); }
+
+/* Amenity chips */
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chips li {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--teal-tint);
+  color: var(--teal);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.chips li:nth-child(4n + 2) { background: var(--mint-tint); color: var(--mint); }
+.chips li:nth-child(4n + 3) { background: var(--honey-tint); color: var(--honey); }
+.chips li:nth-child(4n + 4) { background: var(--coral-tint); color: var(--coral); }
+
+/* Plain bullet and numbered lists — coloured markers, cycling */
+
+ul.plain, ol.steps { padding-left: 22px; }
+
+ul.plain li, ol.steps li { margin: 7px 0; }
+
+ul.plain li::marker, ol.steps li::marker { color: var(--teal); font-weight: 700; }
+ul.plain li:nth-child(4n + 1)::marker { color: var(--mint); }
+ul.plain li:nth-child(4n + 2)::marker { color: var(--honey); }
+ul.plain li:nth-child(4n + 3)::marker { color: var(--coral); }
+
+/* Contact box */
+
+.contact {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--mint);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 20px 0;
+  box-shadow: var(--shadow);
+}
+
+.contact p:first-child { margin-top: 0; }
+.contact p:last-child { margin-bottom: 0; }
+.contact a { font-weight: 600; }
+
+/* Note box for warnings (e.g. what account deletion cannot undo) */
+
+.note {
+  background: var(--coral-tint);
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin: 20px 0;
+}
+
+.note p:first-child { margin-top: 0; }
+.note p:last-child { margin-bottom: 0; }
+
+/* Effective-date line under a policy heading */
+
+.meta {
+  display: inline-block;
+  margin: 6px 0 0;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--teal-tint);
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 22px;
+  padding-top: 18px;
+  color: var(--ink-faint);
+  font-size: 15px;
+  line-height: 2.2;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 4px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--teal-tint);
+  color: var(--teal);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+footer a:hover { text-decoration: underline; }
+
+footer .copyright { margin-top: 16px; line-height: 1.6; }
+
+/* Wider screens */
+
+@media (min-width: 560px) {
+  body { padding: 0 24px 72px; }
+  header { padding: 52px 24px 40px; }
+  header img { width: 112px; height: 112px; }
+}
