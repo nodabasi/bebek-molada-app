@@ -1,0 +1,585 @@
+[
+  {
+    "id": "zorlu-center",
+    "name": "Zorlu Center",
+    "tags": [
+      "puset",
+      "oyun_alani"
+    ],
+    "lat": 41.0669,
+    "lng": 29.015,
+    "address": "Levazım Mah., Vadi Cad. No:2, 34340 Beşiktaş/İstanbul",
+    "district": "Beşiktaş",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Ücretsiz bebek puseti: Boğaz Katı Levazım Girişi danışma, Meydan Katı Concierge ve Metro girişi danışma masaları. Çocuk oyun/park alanı Meydan Katı'nda. Resmi sitede bebek bakım odası belirtilmemiş.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.zorlucenter.com.tr/avm/hizmetler/",
+      "https://www.zorlucenter.com.tr/iletisim/"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "kanyon-avm",
+    "name": "Kanyon",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 41.0785,
+    "lng": 29.0084,
+    "address": "Büyükdere Cad. No:185, 34394 Levent, Beşiktaş/İstanbul",
+    "district": "Beşiktaş",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Resmi hizmet listesinde 'Bebek Odası' yer alıyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.kanyon.com.tr/hizmet",
+      "https://www.kanyon.com.tr/iletisim"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "akmerkez",
+    "name": "Akmerkez",
+    "tags": [
+      "bebek_bakim_odasi",
+      "puset",
+      "oyun_alani"
+    ],
+    "lat": 41.0769,
+    "lng": 29.0268,
+    "address": "Kültür Mah., Nispetiye Cad. No:56, 34340 Etiler, Beşiktaş/İstanbul",
+    "district": "Beşiktaş",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek odaları tüm katlarda. Bebek arabası, üzerindeki QR kod Akmerkez Mobil uygulamasındaki 'Puset & Tekerlekli Sandalye' bölümünden okutularak alınıyor; iade Easy Point danışmadan. Çocuk parkı hizmet listesinde var, kat bilgisi verilmemiş.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.akmerkez.com.tr/hizmetler",
+      "https://www.akmerkez.com.tr/hizmetler/baby-care",
+      "https://www.akmerkez.com.tr/hizmetler/stroller",
+      "https://www.akmerkez.com.tr/iletisim"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "metrocity-avm",
+    "name": "MetroCity AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "aile_tuvaleti"
+    ],
+    "lat": 41.0762,
+    "lng": 29.0135,
+    "address": "Büyükdere Cad. No:171, 1. Levent, 34330 Beşiktaş/İstanbul",
+    "district": "Beşiktaş",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Resmi hizmet listesinde 'Bebek Bakım Odası' ve 'Aile WC' yer alıyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://metrocity.com.tr/hizmetlerimiz",
+      "https://iticket.com.tr/en/venues/metrocity-alisveris-merkezi"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "istanbul-cevahir",
+    "name": "İstanbul Cevahir",
+    "tags": [
+      "bebek_bakim_odasi",
+      "puset"
+    ],
+    "lat": 41.0628,
+    "lng": 28.9931,
+    "address": "Büyükdere Cad. No:22, Şişli/İstanbul",
+    "district": "Şişli",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Her katta bebek bakım odası var. Ücretsiz bebek arabası 3. kattaki danışma masasından kimlik/pasaport karşılığı alınıyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://istanbulcevahir.com/hizmetler/bebek-bakim-odasi/",
+      "https://istanbulcevahir.com/hizmetler/bebek-arabasi/",
+      "https://en.wikipedia.org/wiki/Istanbul_Cevahir"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "vadistanbul-avm",
+    "name": "Vadistanbul",
+    "tags": [
+      "bebek_bakim_odasi",
+      "puset"
+    ],
+    "lat": 41.1044,
+    "lng": 28.9862,
+    "address": "Ayazağa, Sarıyer/İstanbul",
+    "district": "Sarıyer",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Her katta bebek bakım odası var. Bebek puseti danışma noktasından alınıyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.vadistanbul.com/hizmetler"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "axis-istanbul-avm",
+    "name": "Axis İstanbul AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "aile_tuvaleti"
+    ],
+    "lat": 41.0864,
+    "lng": 28.9799,
+    "address": "Merkez Mah. Cendere Cad. No:28, Kağıthane/İstanbul",
+    "district": "Kağıthane",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Her katta bir tane olmak üzere toplam 5 bebek bakım odası var. Bir ziyaretçi şikayetine göre yemek katında Popeyes'ın yanında bir anne-bebek odası bulunuyor. Hizmet listesinde 'Aile WC' de var.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.axisavm.com.tr",
+      "https://www.axisavm.com.tr/iletisim.html",
+      "https://www.sikayetvar.com/axis-avm/kagithane-axis-avm-bebek-bakim-odasi"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "galataport-istanbul",
+    "name": "Galataport İstanbul",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 41.0277,
+    "lng": 28.9842,
+    "address": "Kılıçali Paşa Mah., Meclis-i Mebusan Cad. No:8, 34433 Beyoğlu/İstanbul",
+    "district": "Beyoğlu",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Resmi hizmetler sayfasında 'Bebek Bakım Odaları' yer alıyor; hangi binada olduğu belirtilmemiş.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://galataport.com/tr/hizmetler",
+      "https://galataport.com/tr/hizmetler/bebek-bakim-odalari",
+      "https://yandex.com/maps/org/galataport_istanbul/121507061061"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "istinyepark-istanbul",
+    "name": "İstinyePark",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 41.1104,
+    "lng": 29.0329,
+    "address": "İstinye Bayırı Cad., 34460 Sarıyer/İstanbul",
+    "district": "Sarıyer",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Yandex Haritalar'da AVM içinde iki 'Anne ve Çocuk Odası' kaydı var: biri -1. katta, biri 1. katta. Resmi sitede doğrulanamadı.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://yandex.com.tr/maps/org/220450172703/",
+      "https://yandex.com.tr/maps/org/29117039864/",
+      "https://en.wikipedia.org/wiki/%C4%B0stinye_Park"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "istanbul-havalimani",
+    "name": "İstanbul Havalimanı",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani",
+      "mama_isitma",
+      "puset",
+      "oyun_alani",
+      "aile_tuvaleti"
+    ],
+    "lat": 41.2622,
+    "lng": 28.7278,
+    "address": "Tayakadın Mah., Terminal Cad. No:1, Arnavutköy / İstanbul",
+    "district": "Arnavutköy",
+    "city": "İstanbul",
+    "placeType": "havalimani",
+    "locationNote": "8 bebek bakım odası: Giden yolcu katında B check-in adası tuvaletleri ve D kapıları (IGA Sleepod yanı); dış hatlar A6, B4, D2, F5 kapıları çocuk oyun alanlarında; iç hatlar G5 kapısı çocuk oyun alanında; gelen yolcu katında 12 numaralı çıkış. Odalarda emzirme koltuğu, alt değiştirme ünitesi ve sıcak su sebili var (mama ısıtma = sıcak su sebili). Ücretsiz bebek arabaları ikinci güvenlik/pasaport sonrası istasyonlarda ve gelen yolcu kapı bölgelerinde. Tüm tuvalet alanlarında 'Aile Odası' bulunduğu belirtiliyor. Bu alanların çoğu güvenlik/pasaport kontrolü sonrasındadır.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.istairport.com/hizmetler/deneyim/cocuk-ve-aile-dostu-havalimani/bebek-bakim-odalari",
+      "https://www.istairport.com/hizmetler/deneyim/cocuk-ve-aile-dostu-havalimani/bebek-arabasi",
+      "https://www.istairport.com/ucuslar/havalimani-rehberleri/giden-yolcu-rehberi/hizmetler/yolcu-hizmetleri/aile-dostu-hizmetler",
+      "https://en.wikipedia.org/wiki/Istanbul_Airport"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "capacity-avm",
+    "name": "Capacity AVM",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 40.9776,
+    "lng": 28.8709,
+    "address": "Ataköy 1. Kısım Mah., Fişekhane Cad. No:7, 34158 Bakırköy / İstanbul",
+    "district": "Bakırköy",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Resmî hizmetler sayfasında 'Bebek Odası' olarak listeleniyor; kat bilgisi verilmemiş.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.capacity.com.tr/hizmetlerimiz",
+      "https://www.capacity.com.tr/iletisim"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "carousel-avm",
+    "name": "Carousel AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "puset",
+      "oyun_alani"
+    ],
+    "lat": 40.9781,
+    "lng": 28.8739,
+    "address": "Bakırköy / İstanbul",
+    "district": "Bakırköy",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek bakım odası 1B katında; çocuk WC'leri bebek bakım odasının içinde. Bebek arabası danışmadan ücretsiz. Çocuk oyun alanları 1B ve 2. katta.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://carousel.com.tr/carousel-hakkinda-bilinmeyen-detaylar/",
+      "https://en.wikipedia.org/wiki/Carousel_Shopping_Center"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "marmara-forum",
+    "name": "Marmara Forum",
+    "tags": [
+      "bebek_bakim_odasi",
+      "puset",
+      "oyun_alani"
+    ],
+    "lat": 40.9971,
+    "lng": 28.886,
+    "address": "Osmaniye Mah., Çobançeşme Koşuyolu Bulvarı No:3, Bakırköy / İstanbul",
+    "district": "Bakırköy",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Resmî hizmetler sayfasında Bebek Bakım Odası, Bebek Arabası ve Ücretsiz Çocuk Oyun Alanı listeleniyor; kat bilgisi verilmemiş.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.marmaraforum.com.tr/hizmetler",
+      "https://www.marmaraforum.com.tr/iletisim",
+      "https://www.latlong.net/place/marmara-forum-istanbul-turkey-33634.html"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "airport-outlet-center",
+    "name": "Airport Outlet Center",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 40.9917,
+    "lng": 28.8306,
+    "address": "Londra Asfaltı, Kuleli Mevkii, Bakırköy / İstanbul (Yenibosna metrosu yakını)",
+    "district": "Bakırköy",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek bakım odası 2. katta (resmî hizmetler sayfası).",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://airportavm.com.tr/hizmetlerimiz/",
+      "http://airportavm.com.tr/hizmet/bebek-bakim-odasi/",
+      "https://www.e-sehir.com/turkiye-haritasi/airport-outlet-center-nerede-nasil-gidilir.html"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "olivium-outlet-center",
+    "name": "Olivium Outlet Center",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 40.9953,
+    "lng": 28.9089,
+    "address": "Prof. Muammer Aksoy Cad. No:1/1, Zeytinburnu / İstanbul",
+    "district": "Zeytinburnu",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek bakım odası her katta bulunuyor (resmî hizmetler sayfası).",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.olivium.com.tr/tr/services",
+      "https://en.wikipedia.org/wiki/Olivium_Outlet_Center"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "forum-istanbul",
+    "name": "Forum İstanbul",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani",
+      "oyun_alani"
+    ],
+    "lat": 41.0453,
+    "lng": 28.8972,
+    "address": "Kocatepe Mah., Paşa Cad., 34045 Bayrampaşa / İstanbul",
+    "district": "Bayrampaşa",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Bebek bakım odalarında alt değiştirme ünitesi ve emzirme koltuğu olduğu bir şikâyetten (Kasım 2023) anlaşılıyor; bir blog 'bebek odası yeterli sayıda ama yoğun' diyor. Resmî site çocuk oyun alanlarından (playground) söz ediyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.sikayetvar.com/forum-istanbul-avm/bebek",
+      "https://cocukmekan.com/blog/istanbul-cocuk-dostu-avm-rehberi-2025",
+      "https://forumistanbul.com.tr/about-en",
+      "https://malls.com/malls/forum_istanbul"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "starcity-outlet",
+    "name": "Starcity Outlet",
+    "tags": [
+      "bebek_bakim_odasi",
+      "oyun_alani"
+    ],
+    "lat": 41.0106,
+    "lng": 28.8152,
+    "address": "Yenibosna Merkez Mah., Değirmenbahçe Cad. No:34, 34197 Bahçelievler / İstanbul",
+    "district": "Bahçelievler",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Yandex Haritalar mekân içinde 4 'Anne ve Çocuk Odası' ve 'Starcity Çocuk Parkı' / PlayKids oyun merkezi listeliyor; resmî sitede teyit edilemedi.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://yandex.com.tr/maps/org/starcity_outlet_alisveris_merkezi/1046967057/inside/",
+      "https://www.starcity.com.tr/kategori/adres-bilgileri",
+      "https://www.e-sehir.com/turkiye-haritasi/starcity-outlet-center-nerede-nasil-gidilir.html"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "metroport-avm",
+    "name": "Metroport AVM",
+    "tags": [
+      "puset"
+    ],
+    "lat": 40.9953,
+    "lng": 28.862,
+    "address": "Bahçelievler Merkez, Eski Londra Asfaltı Kültür Sk. No:1 (D-100 yan yol), Bahçelievler / İstanbul",
+    "district": "Bahçelievler",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek arabası danışma ve güvenlik görevlilerinden isteniyor; danışma B-1 katında. Bebek bakım odası resmî sayfada geçmiyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://metroportavm.com.tr/sayfa/hizmetlerimiz.html",
+      "https://www.e-sehir.com/turkiye-haritasi/metroport-nerede-nasil-gidilir.html"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "kale-outlet-center",
+    "name": "Kale Outlet Center",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 41.0155,
+    "lng": 28.8782,
+    "address": "Güven Mah., Eski Londra Asfaltı No:89, 34610 Güngören / İstanbul",
+    "district": "Güngören",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Yandex Haritalar mekân içinde birden fazla 'Anne ve Çocuk Odası' listeliyor; resmî sitede teyit edilemedi.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://yandex.com.tr/maps/org/kale_outlet_center/1127176332/inside/",
+      "https://www.ozdilek.com.tr/tr/ev-tekstili-magazalari/kale-outlet-center/iletisim"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "venezia-mega-outlet",
+    "name": "Venezia Mega Outlet",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 41.0809,
+    "lng": 28.8772,
+    "address": "Karadeniz Mah., Eski Edirne Asfaltı No:408, 34250 Gaziosmanpaşa / İstanbul",
+    "district": "Gaziosmanpaşa",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Yandex Haritalar mekân içinde 2 'Anne ve Çocuk Odası' listeliyor; resmî hizmetler sayfası okunamadı.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://yandex.com.tr/maps/org/venezia_mega_outlet/157100196824/inside/",
+      "https://mapstr.com/place/hiFOIkRkA6g"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "mall-of-istanbul",
+    "name": "Mall of İstanbul",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 41.0625,
+    "lng": 28.805,
+    "address": "Ziya Gökalp Mah. (İkitelli OSB), Süleyman Demirel Blv. No:7, Başakşehir/İstanbul",
+    "district": "Başakşehir",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Resmi hizmetler sayfasına göre 1. Kat; 2025 tarihli bir şikayette 'yiyecek katındaki bebek bakım odası' olarak geçiyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.mallofistanbul.com.tr/hizmetler",
+      "https://en.wikipedia.org/wiki/Mall_of_Istanbul",
+      "https://www.sikayetvar.com/mall-of-istanbul/bebek-bakim-odasi"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "marmara-park-avm",
+    "name": "Marmara Park AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "aile_tuvaleti",
+      "oyun_alani"
+    ],
+    "lat": 41.0094,
+    "lng": 28.6597,
+    "address": "Mehterçeşme Mah., D100, Çelebi Mehmet Sk. No:33A, 34515 Esenyurt/İstanbul",
+    "district": "Esenyurt",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Resmi sitede 'Bebek Odası', 'Aile WC' ve 'Çocuk Oyun Alanı' hizmet olarak listeleniyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.marmarapark.com/hizmet/tuem-hizmetler/",
+      "https://www.marmarapark.com/hizmet/bebek-odasi-s11925/",
+      "https://www.marmarapark.com/hizmet/aile-wc-s11970/",
+      "https://www.marmarapark.com/hizmet/cocuk-oyun-alani-s11965/",
+      "https://en.wikipedia.org/wiki/Marmara_Park"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "beylicium-avm",
+    "name": "Beylicium AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani"
+    ],
+    "lat": 41.0118,
+    "lng": 28.6492,
+    "address": "Büyükşehir Mah. Beylikdüzü Cad. No:22, Beylikdüzü/İstanbul",
+    "district": "Beylikdüzü",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Resmi sitede bebek bakım odasının alt değiştirme, emzirme ve dinlenme için donatıldığı belirtiliyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.beylicium.com.tr/hizmet/bebek-bakim-odasi",
+      "https://www.e-sehir.com/turkiye-haritasi/beylicium-nerede-nasil-gidilir.html"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "beylikduzu-migros-avm",
+    "name": "Beylikdüzü Migros AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "oyun_alani",
+      "aile_tuvaleti"
+    ],
+    "lat": 41.007,
+    "lng": 28.6575,
+    "address": "E-5 Karayolu Üzeri, Beylikdüzü/İstanbul",
+    "district": "Beylikdüzü",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek bakım odası -1. Kat; çocuk oyun alanı 1. Kat ve -1. Kat; aile/engelli WC zemin, 1. ve -1. katlarda.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.beylikduzumigrosavm.com/hizmetler",
+      "https://www.e-sehir.com/turkiye-haritasi/beylikduzu-migros-avm-nerede-nasil-gidilir.html"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "torium-avm",
+    "name": "Torium AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani"
+    ],
+    "lat": 41.0042,
+    "lng": 28.6877,
+    "address": "Saadetdere Mah. E-5 Karayolu Üzeri, Haramidere, Esenyurt/İstanbul",
+    "district": "Esenyurt",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Mart 2026 tarihli bir şikayette bebek bakım odası ve içindeki emzirme bölümü (kapı kilidi bozuk) anılıyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.sikayetvar.com/torium-avm/torium-avm-bebek-bakim-odasi-hijyen-sorunu-video",
+      "https://www.latlong.net/place/torium-avm-istanbul-turkey-33635.html"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "perlavista-avm",
+    "name": "PerlaVista AVM",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 41.0177,
+    "lng": 28.6372,
+    "address": "Adnan Kahveci Mah. Yavuz Sultan Selim Blv., Beylikdüzü/İstanbul",
+    "district": "Beylikdüzü",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş. Mart 2025 tarihli bir şikayette bebek bakım odasında lavabo olmadığı belirtiliyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.sikayetvar.com/perlavista-avm/perlavista-avmde-bebek-bakim-odasi-hijyen-sorunu",
+      "https://www.avmgezgini.com/avmler/istanbul/perlavista-avm-83.html"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "basaksehir-millet-bahcesi",
+    "name": "Başakşehir Millet Bahçesi",
+    "tags": [
+      "bebek_bakim_odasi",
+      "oyun_alani"
+    ],
+    "lat": 41.1193,
+    "lng": 28.7777,
+    "address": "Kayabaşı Mah. Adnan Menderes Blv., Başakşehir/İstanbul",
+    "district": "Başakşehir",
+    "city": "İstanbul",
+    "placeType": "park",
+    "locationNote": "Kat bilgisi verilmemiş. Bahçe içindeki tesis yapıları arasında bebek bakım odası sayılıyor; engelsiz oyun alanları ve çocuk parkları var. Tam yeri sahada doğrulanmalı.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://kureansiklopedi.com/tr/detay/basaksehir-millet-bahcesi-5d132",
+      "https://www.diken.com.tr/?p=617926",
+      "https://www.e-sehir.com/turkiye-haritasi/basaksehir-millet-bahcesi-nerede-nasil-gidilir.html"
+    ],
+    "needsOnSiteCheck": true
+  }
+]

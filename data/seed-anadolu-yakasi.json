@@ -1,0 +1,458 @@
+[
+  {
+    "id": "metropol-istanbul",
+    "name": "Metropol İstanbul",
+    "tags": [
+      "bebek_bakim_odasi",
+      "puset",
+      "aile_tuvaleti"
+    ],
+    "lat": 40.9945,
+    "lng": 29.1219,
+    "address": "Atatürk Mah. Ataşehir Bulvarı, Ertuğrul Gazi Sok., 34758 Ataşehir / İstanbul",
+    "district": "Ataşehir",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek Bakım Odası: 2. kat. Bebek Arabası: Zemin kat (Danışma). Aile WC: kat belirtilmemiş.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.metropolistanbul.com/hizmetler",
+      "https://www.metropolistanbul.com/iletisim",
+      "https://en.wikipedia.org/wiki/Metropol_Istanbul"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "palladium-atasehir",
+    "name": "Palladium Ataşehir",
+    "tags": [
+      "bebek_bakim_odasi",
+      "puset"
+    ],
+    "lat": 40.986098,
+    "lng": 29.099549,
+    "address": "Barbaros Mah. Halk Cad. No:8, 34746 Ataşehir / İstanbul",
+    "district": "Ataşehir",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.palladiumatasehir.com.tr/hizmetler/",
+      "https://www.palladiumatasehir.com.tr/iletisim/"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "watergarden",
+    "name": "Watergarden",
+    "tags": [
+      "bebek_bakim_odasi",
+      "aile_tuvaleti",
+      "puset",
+      "oyun_alani"
+    ],
+    "lat": 40.9979,
+    "lng": 29.0974,
+    "address": "Barbaros Mah. Kızılbegonya Sok. 10/1, 34746 Ataşehir / İstanbul",
+    "district": "Ataşehir",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek Bakım Odası: 0. kat. Aile Odası: 0. kat. Bebek Arabası: 1. kat (Danışma). Oyun alanı: Playland (kat belirtilmemiş, ücretli).",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.watergarden.com.tr/hizmetler",
+      "https://www.watergarden.com.tr/eglence",
+      "https://www.watergarden.com.tr/iletisim"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "tepe-nautilus",
+    "name": "Tepe Nautilus",
+    "tags": [
+      "bebek_bakim_odasi",
+      "aile_tuvaleti"
+    ],
+    "lat": 41.000033,
+    "lng": 29.029088,
+    "address": "Fatih Sokak No:1, Acıbadem, Kadıköy / İstanbul",
+    "district": "Kadıköy",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Aile WC ve bebek bakım odaları, mama sandalyesi: -1, Zemin, 1 ve 2. katlarda.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.tepenautilus.com/hizmetler",
+      "https://www.tepenautilus.com/iletisim"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "ritim-istanbul",
+    "name": "Ritim İstanbul",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 40.92207,
+    "lng": 29.15566,
+    "address": "Cevizli Mah. Zuhal Cad., 34846 Maltepe / İstanbul",
+    "district": "Maltepe",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi verilmemiş.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.ritimistanbulavm.com/",
+      "https://www.ritimistanbulavm.com/ulasim/"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "viaport-asia-outlet-avm",
+    "name": "Viaport Asia Outlet AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "oyun_alani"
+    ],
+    "lat": 40.938179,
+    "lng": 29.323563,
+    "address": "Yenişehir Mah. Dedepaşa Cad. No:19 Viaport, Pendik/İstanbul",
+    "district": "Pendik",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "3 bebek bakım odası: C Blok WC koridoru, göl kenarı ve Ramsey kip mağazası yanı",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.viaport.com.tr/tr/hizmetler",
+      "https://yandex.com.tr/maps/org/viaport_asya/1028446473/"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "viaport-marina-avm",
+    "name": "Viaport Marina AVM",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 40.81528,
+    "lng": 29.31778,
+    "address": "Cami Mah. Balıkçılar Sok. No:20, Tuzla/İstanbul",
+    "district": "Tuzla",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Konum belirtilmemiş",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.viaportmarina.com/tr/alisveris-merkezi/hizmetler",
+      "https://yandex.com/maps/org/viaport_marina/1403209836/"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "akyaka-park-avm",
+    "name": "Akyaka Park AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "oyun_alani"
+    ],
+    "lat": 41.0332,
+    "lng": 29.112413,
+    "address": "İnkılap Mah., Esnaf Cad. No:1, Ümraniye/İstanbul",
+    "district": "Ümraniye",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi bulunamadı",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://yandex.com.tr/maps/org/akyaka_park_alisveris_merkezi/1757666049/"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "canpark-avm",
+    "name": "Canpark AVM",
+    "tags": [
+      "bebek_bakim_odasi"
+    ],
+    "lat": 41.024792,
+    "lng": 29.106485,
+    "address": "Yamanevler Mah. Alemdağ Cad. No:169, 34768 Ümraniye/İstanbul",
+    "district": "Ümraniye",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat belirtilmemiş",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.canparkavm.com.tr/tr/hizmetler",
+      "https://www.canparkavm.com.tr/tr/iletisim"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "ikea-umraniye",
+    "name": "IKEA Ümraniye",
+    "tags": [
+      "bebek_bakim_odasi",
+      "oyun_alani",
+      "aile_tuvaleti"
+    ],
+    "lat": 41.0253274,
+    "lng": 29.1252496,
+    "address": "Meydan AVM, Fatih Sultan Mehmet Mh. Balkan Cd. No:62 34771 Ümraniye/İstanbul",
+    "district": "Ümraniye",
+    "city": "İstanbul",
+    "placeType": "magaza",
+    "locationNote": "Çocuk oyun alanı (Småland) her gün 10:00-21:00; 36-72 ay, 90-120 cm",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.ikea.com.tr/magazalar/ikea-umraniye/yol-tarifi",
+      "https://www.ikea.com.tr/aile-dostu-magaza-hizmetleri"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "umraniye-belediyesi-bebek-bakim-ve-emzirme-kabini-dr-sadik-ahmet-parki",
+    "name": "Ümraniye Belediyesi Bebek Bakım ve Emzirme Kabini - Dr. Sadık Ahmet Parkı",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani"
+    ],
+    "lat": 41.023457,
+    "lng": 29.091851,
+    "address": "Dr. Sadık Ahmet Parkı, Ümraniye",
+    "district": "Ümraniye",
+    "city": "İstanbul",
+    "placeType": "kamu",
+    "locationNote": "Park içinde kabin",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.gazetebirlik.com/istanbul-haberleri/annelere-buyuk-hizmet/47646"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "umraniye-belediyesi-bebek-bakim-ve-emzirme-kabini-dudullu-kaleli-merkez-camii",
+    "name": "Ümraniye Belediyesi Bebek Bakım ve Emzirme Kabini - Dudullu Kaleli Merkez Camii",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani"
+    ],
+    "lat": 41.016862,
+    "lng": 29.1634268,
+    "address": "Dudullu Kaleli Merkez Camii çevresi, Ümraniye",
+    "district": "Ümraniye",
+    "city": "İstanbul",
+    "placeType": "kamu",
+    "locationNote": "Cami çevresinde kabin",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.gazetebirlik.com/istanbul-haberleri/annelere-buyuk-hizmet/47646"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "umraniye-belediyesi-bebek-bakim-ve-emzirme-kabini-santral-meydan",
+    "name": "Ümraniye Belediyesi Bebek Bakım ve Emzirme Kabini - Santral Meydan",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani"
+    ],
+    "lat": 41.024723,
+    "lng": 29.085377,
+    "address": "Santral Meydanı, Ümraniye",
+    "district": "Ümraniye",
+    "city": "İstanbul",
+    "placeType": "kamu",
+    "locationNote": "Açık alanda kabin; alt değiştirme ünitesi ve klima var",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.gazetebirlik.com/istanbul-haberleri/annelere-buyuk-hizmet/47646"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "capitol",
+    "name": "Capitol",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani",
+      "puset",
+      "oyun_alani"
+    ],
+    "lat": 41.02111,
+    "lng": 29.03944,
+    "address": "Mahir İz Caddesi 34662, Altunizade / İstanbul",
+    "district": "Üsküdar",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek bakım ve emzirme odaları: Zemin, 1, 2, 3 ve The Loft katlarında. Bebek arabası: 1. Kat Danışma. Oyun alanı: Captune World (soft play 1-2 yaş ve 3-5 yaş, edutainment 3-6 yaş; ücretli).",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.capitol.com.tr/tr/hizmetlerimiz/",
+      "https://www.capitol.com.tr/tr/captune-world/",
+      "https://www.capitol.com.tr/tr/iletisim/",
+      "https://en.wikipedia.org/wiki/Capitol_Shopping_Center"
+    ],
+    "needsOnSiteCheck": false
+  },
+  {
+    "id": "optimum-outlet",
+    "name": "Optimum Outlet",
+    "tags": [
+      "puset",
+      "bebek_bakim_odasi"
+    ],
+    "lat": 40.9887325,
+    "lng": 29.0831838,
+    "address": "Elibol Sok. No:2/B, Yenisahra, Ataşehir / İstanbul",
+    "district": "Ataşehir",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi yok. Bebek arabası resmi sitedeki ücretsiz hizmet formuyla isteniyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://optimumistanbul.com/tr/hizmetler",
+      "https://optimumistanbul.com/en/contact",
+      "https://www.sikayetvar.com/optimum-outlet-istanbul/optimum-outlet-istanbul-bebek-bakim-odasi-kirliligi"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "hilltown",
+    "name": "Hilltown",
+    "tags": [
+      "bebek_bakim_odasi",
+      "mama_isitma",
+      "oyun_alani",
+      "aile_tuvaleti"
+    ],
+    "lat": 40.95536,
+    "lng": 29.11673,
+    "address": "Aydınevler Mah. Siteler Yolu Cad. No:28/1, Küçükyalı, Maltepe / İstanbul",
+    "district": "Maltepe",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Anneler ve babalar için ayrı bebek bakım odaları; mama sandalyesi ve biberon ısıtıcı; aile tuvaletleri. Kat bilgisi yok.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.emlakpencerem.com.tr/hilltown-avm-nerede-nasil-gidilir/98272",
+      "https://hilltownavm.com/tr/hilltown-kucukyali/services"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "maltepe-park",
+    "name": "Maltepe Park",
+    "tags": [
+      "puset",
+      "bebek_bakim_odasi"
+    ],
+    "lat": 40.9188912,
+    "lng": 29.1639846,
+    "address": "Cevizli Mah., Tugay Yolu Cad. No:67, Maltepe / İstanbul",
+    "district": "Maltepe",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi bulunamadı. Bebek arabası resmi sitedeki ücretsiz hizmet formuyla isteniyor.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://maltepeparkavm.com/tr/hizmetler",
+      "https://maltepeparkavm.com/tr/iletisim",
+      "https://www.youtube.com/watch?v=FZbVcZInGQg",
+      "https://www.sikayetvar.com/maltepe-park-avm/bebek-bakim-odasi"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "sabiha-gokcen-uluslararasi-havalimani",
+    "name": "Sabiha Gökçen Uluslararası Havalimanı",
+    "tags": [
+      "bebek_bakim_odasi",
+      "emzirme_alani",
+      "oyun_alani"
+    ],
+    "lat": 40.89833,
+    "lng": 29.30917,
+    "address": "",
+    "district": "Pendik",
+    "city": "İstanbul",
+    "placeType": "havalimani",
+    "locationNote": "Bebek bakım odaları her kapı grubunun yakınında; oyun alanları iç hat gidişte; emzirme odaları ve alt değiştirme masaları tuvalet bloklarında",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.flypgs.com/en/blog/?p=25809",
+      "https://www.airportsdata.net/airport-SAW-services/"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "meydan-istanbul-avm",
+    "name": "Meydan İstanbul AVM",
+    "tags": [
+      "bebek_bakim_odasi",
+      "oyun_alani"
+    ],
+    "lat": 41.024723,
+    "lng": 29.085377,
+    "address": "Fatih Sultan Mehmet Mah. Balkan Cad. No:62, Ümraniye/İstanbul",
+    "district": "Ümraniye",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Kat bilgisi bulunamadı",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://yandex.com/maps/org/meydan_istanbul_shopping_mall/1053826273/",
+      "https://www.avmgezgini.com/avmler/istanbul/meydan-umraniye-avm-156.html"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "akasya",
+    "name": "Akasya",
+    "tags": [
+      "bebek_bakim_odasi",
+      "oyun_alani"
+    ],
+    "lat": 41.00139,
+    "lng": 29.05472,
+    "address": "Acıbadem Mah. Çeçen Sok., Üsküdar / İstanbul",
+    "district": "Üsküdar",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Blog: bakım alanları 'farklı katlarda'; kat numarası verilmemiş. Oyun alanı = KidZania (ücretli eğitici eğlence merkezi, 4-14 yaş).",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://cocukmekan.com/blog/istanbul-cocuk-dostu-avm-rehberi-2025",
+      "https://avm-merkezleri.blogspot.com/2015/03/akasya-avm-acbadem-als-veris-merkezi.html",
+      "https://www.istiklal.com.tr/istanbul-son-dakika-ulasim-haberleri/akasya-avmye-nasil-gidilir-akasya-avm-nerede-896184h"
+    ],
+    "needsOnSiteCheck": true
+  },
+  {
+    "id": "emaar-square-mall",
+    "name": "Emaar Square Mall",
+    "tags": [
+      "puset",
+      "oyun_alani",
+      "bebek_bakim_odasi",
+      "emzirme_alani"
+    ],
+    "lat": 41.00432,
+    "lng": 29.07118,
+    "address": "Ünalan, Libadiye Cd. No:80 G Blok, 34700 Üsküdar / İstanbul",
+    "district": "Üsküdar",
+    "city": "İstanbul",
+    "placeType": "avm",
+    "locationNote": "Bebek pusetleri Misafir Hizmetleri (Info Desk) noktalarından ücretsiz. Bebek odası -3. katta (şikayetvar, Haziran 2024). Oyun alanları: Playland (-2. kat), Minizone (-3. kat, küçük yaş grubu), XPZone (-2. kat); ücretli.",
+    "locationPrecision": "mekan",
+    "sourceUrls": [
+      "https://www.emaarsquaremall.com/tr/hizmetler",
+      "https://www.emaarsquaremall.com/tr/eglence/",
+      "https://www.sikayetvar.com/emaar-square-mall/emaar-square-mall-bebek-odasinda-guvenlik-sorunu-ve-ilgisizlik",
+      "https://cocukmekan.com/blog/istanbul-cocuk-dostu-avm-rehberi-2025",
+      "https://en.wikipedia.org/wiki/Emaar_Square_Istanbul"
+    ],
+    "needsOnSiteCheck": true
+  }
+]
