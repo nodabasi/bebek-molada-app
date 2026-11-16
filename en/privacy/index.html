@@ -19,7 +19,7 @@
   <p class="tagline">What we collect, who sees it, how to delete it</p>
 </header>
 
-<p class="meta">Effective 5 October 2026 · Applies to the Bebek Molada mobile app for
+<p class="meta">Effective 16 November 2026 · Applies to the Bebek Molada mobile app for
 iOS and Android</p>
 
 <h2>The short version</h2>
@@ -28,7 +28,8 @@ your children's names and birth dates) are visible only to you. The spots you ad
 map and the confirmation notes you leave are visible to other users together with your
 name; that is what the app is for. Your location is used on your device to centre the map
 and is never saved on our servers. The app is supported by ads served by Google AdMob,
-which collects data about your device. You can delete your account at any time.</p>
+which collects data about your device. We collect anonymous usage statistics to improve
+the app; you can turn this off in Settings. You can delete your account at any time.</p>
 
 <h2>What we collect</h2>
 
@@ -71,10 +72,26 @@ servers. Without permission you can still pan the map by hand.</p>
 <p>To load nearby spots the app asks the database for the area of the map on your screen;
 these queries are not logged.</p>
 
+<h3>Usage statistics</h3>
+<p>To understand which features are used we use Google's <b>Firebase Analytics</b>. It
+receives which screens are opened and events such as opening a spot card, adding,
+confirming, getting directions, sharing, filtering and reporting, with coarse details
+(for example the type of place or how many tags were selected), plus device model,
+operating system, app version, language and a country/city-level location derived from
+your IP address. <b>Your name, email address, children's details, spot names, notes and
+location are never sent.</b> This data is not linked to your account, no advertising
+identifier is collected and it is not used for tracking. We only see aggregate reports.</p>
+<p>You can stop this collection at any time with <b>Settings → Privacy → Share usage
+statistics</b> in the app. Your choice is saved with your account.</p>
+
+<h3>Sharing</h3>
+<p>When you share a spot, your device's share sheet opens. The spot's name and link go
+only to the app (for example WhatsApp) and people you choose; we never see the message.</p>
+
 <h2>Third-party services</h2>
 <ul class="plain">
-  <li><b>Google Firebase</b> (Authentication and Cloud Firestore) stores your account,
-  profile and the spots. Data may be held on Google servers outside Turkey.
+  <li><b>Google Firebase</b> (Authentication, Cloud Firestore and Analytics) stores your
+  account, profile and the spots, and collects anonymous usage statistics. Data may be held on Google servers outside Turkey.
   <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</li>
   <li><b>OpenFreeMap</b> serves the map imagery. Your device downloads the tiles for the
   area you are viewing, so your IP address reaches that service.</li>
@@ -105,6 +122,7 @@ use its services</a>. We receive only anonymous, aggregate revenue reports.</p>
   <b>Settings → Privacy &amp; Security → Tracking</b>.</li>
   <li><b>On Android</b>, reset or delete the advertising ID in
   <b>Settings → Google → Ads</b>.</li>
+  <li><b>Usage statistics</b> can be turned off in the app under <b>Settings → Privacy</b>.</li>
   <li><b>Location permission</b> can be turned off in your device settings at any time.</li>
   <li><b>Your profile</b> is shown in the app's Profile tab; write to us if anything needs
   correcting.</li>
