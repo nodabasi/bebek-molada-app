@@ -19,7 +19,7 @@
   <p class="tagline">Ne topluyoruz, kim görüyor, nasıl silinir</p>
 </header>
 
-<p class="meta">Yürürlük tarihi: 8 Ekim 2026 · iOS ve Android için Bebek Molada
+<p class="meta">Yürürlük tarihi: 16 Kasım 2026 · iOS ve Android için Bebek Molada
 uygulaması</p>
 
 <h2>Kısaca</h2>
@@ -28,7 +28,8 @@ uygulaması</p>
 eklediğin noktalar ve bıraktığın onay notları ise adınla birlikte diğer kullanıcılara
 görünür; uygulama bunun için var. Konumun haritayı ortalamak için cihazında kullanılır
 ve sunucularımıza kaydedilmez. Uygulama reklamlarla desteklenir; reklamları Google
-AdMob gösterir ve cihazın hakkında veri toplar. Hesabını istediğin an silebilirsin.</p>
+AdMob gösterir ve cihazın hakkında veri toplar. Uygulamayı geliştirmek için anonim kullanım
+istatistikleri toplarız; bunu Ayarlar'dan kapatabilirsin. Hesabını istediğin an silebilirsin.</p>
 
 <h2>Topladığımız bilgiler</h2>
 
@@ -73,10 +74,27 @@ ve kaydedilmez. İzin vermezsen haritayı elle gezerek kullanmaya devam edebilir
 <p>Yakındaki noktaları getirmek için uygulama, ekranda gördüğün harita bölgesini
 veritabanına sorar; bu sorgular kaydedilmez.</p>
 
+<h3>Kullanım istatistikleri</h3>
+<p>Uygulamanın hangi özelliklerinin kullanıldığını anlamak için Google'ın <b>Firebase
+Analytics</b> hizmetini kullanırız. Gönderilenler: hangi ekranların açıldığı, nokta kartı
+açma, nokta ekleme, onaylama, yol tarifi alma, paylaşma, filtre ve bildirim gibi olaylar
+ve bunların kaba türleri (ör. mekân türü, kaç etiket seçildiği), ayrıca cihaz modeli,
+işletim sistemi, uygulama sürümü, dil ve IP adresinden çıkarılan ülke/şehir düzeyinde
+konum. <b>Adın, e-posta adresin, çocuklarının bilgileri, noktaların adları, notların ve
+konumun gönderilmez.</b> Bu veriler hesabına bağlanmaz; reklam kimliği toplanmaz ve
+takip için kullanılmaz. Biz yalnızca toplu raporları görürüz.</p>
+<p>İstersen <b>Ayarlar → Gizlilik → Kullanım istatistiklerini paylaş</b> anahtarını
+kapatarak bu veri toplamayı durdurabilirsin. Tercihin hesabınla birlikte saklanır.</p>
+
+<h3>Paylaşma</h3>
+<p>Bir noktayı “Paylaş” ile gönderdiğinde cihazının paylaşım penceresi açılır. Noktanın
+adı ve bağlantısı yalnızca seçtiğin uygulamaya (ör. WhatsApp) ve kişilere gider; biz bu
+mesajı görmeyiz.</p>
+
 <h2>Üçüncü taraf hizmetler</h2>
 <ul class="plain">
-  <li><b>Google Firebase</b> (Authentication ve Cloud Firestore): hesabını, profilini ve
-  noktaları saklar. Veriler Google'ın sunucularında, Türkiye dışında olabilir.
+  <li><b>Google Firebase</b> (Authentication, Cloud Firestore ve Analytics): hesabını,
+  profilini ve noktaları saklar, anonim kullanım istatistiklerini toplar. Veriler Google'ın sunucularında, Türkiye dışında olabilir.
   <a href="https://firebase.google.com/support/privacy">Firebase gizlilik bilgisi</a>.</li>
   <li><b>OpenFreeMap</b>: harita görsellerini sunar. Harita yüklenirken cihazın,
   görüntülenen bölgenin karolarını bu hizmetten indirir; bu sırada IP adresin
@@ -110,6 +128,8 @@ raporları alırız.</p>
   bölümünden değiştirebilirsin.</li>
   <li><b>Android'de</b> reklam kimliğini <b>Ayarlar → Google → Reklamlar</b> bölümünden
   sıfırlayabilir ya da silebilirsin.</li>
+  <li><b>Kullanım istatistiklerini</b> uygulamadaki <b>Ayarlar → Gizlilik</b> bölümünden
+  kapatabilirsin.</li>
   <li><b>Konum iznini</b> cihaz ayarlarından istediğin an kapatabilirsin.</li>
   <li><b>Profilini</b> uygulamadaki Profil sekmesinden görebilirsin; düzeltmek istediğin
   bir bilgi varsa bize yaz.</li>
